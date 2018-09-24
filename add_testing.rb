@@ -8,6 +8,9 @@ class Add_test < Minitest::test
 	def test2
 		assert_equal(10, addition(3, 7))
 	end
+	def test3
+		assert_equal(53, addition(20, 33))
+	end
 	
 end
 
