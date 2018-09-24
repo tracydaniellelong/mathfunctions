@@ -17,4 +17,7 @@ class Multiply_test < Minitest::test
 	def test5F
 		assert_equal(1, multiply(3, 5))
 	end
+	def test6F
+		assert_equal(1, multiply(16, 1))
+	end
 end
