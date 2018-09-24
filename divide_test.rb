@@ -8,4 +8,7 @@ class Divide_test < Minitest::test
 	def test2
 		assert_equal(5, divide(15, 3))
 	end
+	def test3
+		assert_equal(7, divide(21, 3))
+	end
 end
