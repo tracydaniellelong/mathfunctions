@@ -11,4 +11,7 @@ class Subtract_test < Minitest::test
 	def test3F
 		assert_equal(50, subtract(7, 8))
 	end
+	def test4
+		assert_equal(79, subtract(80, 1))
+	end
 end
