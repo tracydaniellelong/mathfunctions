@@ -20,4 +20,7 @@ class Multiply_test < Minitest::test
 	def test6F
 		assert_equal(1, multiply(16, 1))
 	end
+	def test7
+		assert_equal(8, multiply(2, 4))
+	end
 end
