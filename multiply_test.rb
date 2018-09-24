@@ -14,4 +14,7 @@ class Multiply_test < Minitest::test
 	def test4
 		assert_equal(100, multiply(10, 10))
 	end
+	def test5F
+		assert_equal(1, multiply(3, 5))
+	end
 end
