@@ -29,4 +29,7 @@ class Multiply_test < Minitest::test
 	def test9
 		assert_equal(42, multiply(6, 7))
 	end
+	def test10
+		assert_equal(72, multiply(8, 9))
+	end
 end
