@@ -29,4 +29,7 @@ class Divide_test < Minitest::test
 	def test9
 		assert_equal(2, divide(6, 3))
 	end
+	def test10
+		assert_equal(5, divide(30, 6))
+	end
 end
